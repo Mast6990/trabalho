@@ -12,16 +12,19 @@
  header{
     grid-area: cabe;
     background-color: darkorange;
+    height: 200px;
+    width: auto;
+
  }
  aside{
     grid-area: brac;
-    background-color: rgb(0, 255, 72);
+    background-color: orangered
  }
  main{grid-area: corp;
     background-color: rgb(1, 18, 147);
  }
  footer{grid-area: pern;
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
  }
  .produtos{
    background-color: rgb(1, 18, 147); 
