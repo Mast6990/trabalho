@@ -1,30 +1,23 @@
- body{
-    display: grid;
-    grid-template-areas:
-    "cabe cabe"
-    "brac corp"
-    "pern pern";
-    grid-template-columns: 300px auto;
-    grid-template-rows: 49px 800px 125px;
-
- }
+ 
 
  header{
-    grid-area: cabe;
     background-color: darkorange;
     height: 200px;
     width: auto;
 
  }
  aside{
-    grid-area: brac;
     background-color: orangered
+    
+
  }
- main{grid-area: corp;
+ main{
     background-color: rgb(1, 18, 147);
+    height: 600px;
  }
- footer{grid-area: pern;
+ footer{
     background-color: rgb(0, 0, 0);
+    height: auto;
  }
  .produtos{
    background-color: rgb(1, 18, 147); 
